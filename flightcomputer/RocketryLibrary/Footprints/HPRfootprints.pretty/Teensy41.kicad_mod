@@ -1121,7 +1121,7 @@
 		(remove_unused_layers no)
 		(uuid "69fb1d86-dc2f-4085-a179-f55d3be56c68")
 	)
-	(model "${KIPRJMOD}/RocketryLibrary/3Dmodels/Teensy_4.1_Assembly.STEP"
+	(model "${KIPRJMOD}/RocketryLibrary/3Dmodels/Teensy 4.1--3DModel-STEP-269445.STEP"
 		(offset
 			(xyz 0 0 0.762)
 		)
@@ -1129,7 +1129,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

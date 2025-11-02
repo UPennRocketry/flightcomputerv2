@@ -1,4 +1,4 @@
-23888545337671578
+23899173670698036
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57764,12 +57764,33 @@ MMC5983MA
 16
 16
 HPRfootprints
+MODULE_ESP32_DEVKIT_V1
+
+
+0
+30
+30
+HPRfootprints
+MODULE_RFM96W-433S2
+
+
+0
+16
+16
+HPRfootprints
 PQFN50P200X200X70-12N
 
 
 0
 12
 12
+HPRfootprints
+PQFN50P300X300X100-16N
+
+
+0
+16
+16
 HPRfootprints
 PQFN50P450X300X100-16N
 
@@ -57883,12 +57904,33 @@ Teensy41
 67
 67
 HPRfootprints
+XCVR_ESP32-S3-DEVKITC-1U-N8R2
+
+
+0
+44
+44
+HPRfootprints
+XCVR_ESP32-S3-WROOM-1-N4
+
+
+0
+61
+61
+HPRfootprints
 XCVR_L80RE-M37
 
 
 0
 12
 12
+HPRfootprints
+XDCR_LSM6DSO32TR
+
+
+0
+14
+14
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
