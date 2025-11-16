@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/RocketryLibrary/Footprints")(options "")(descr ""))
+  (lib (name "HPRfootprints")(type "KiCad")(uri "${KIPRJMOD}/RocketryLibrary/Footprints/HPRfootprints.pretty")(options "")(descr ""))
+)
