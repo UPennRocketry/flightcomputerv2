@@ -3768,6 +3768,12 @@
 		(uuid "5e4144d0-9b4c-4786-963b-ff38ff13e3f8")
 	)
 	(junction
+		(at 54.61 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62f77172-5810-4245-9b1e-3a1b507b6ee7")
+	)
+	(junction
 		(at 252.73 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3844,12 +3850,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee9e1442-4a7c-43af-98b4-5bfcb9e15ca3")
-	)
-	(junction
-		(at 54.61 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4b14ff0-4ff3-4c28-9c21-ab95acff2dcf")
 	)
 	(junction
 		(at 68.58 60.96)
@@ -6250,76 +6250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 54.61 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47291e5b-fba0-43e1-a58b-7bf2900a272d")
-		(property "Reference" "R5"
-			(at 57.15 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 57.15 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.626 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 54.61 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "182ed013-0d23-4978-a16f-198537eb74e3")
-		)
-		(pin "2"
-			(uuid "0bf5b0d5-05c0-42df-86b8-a637bbd7a656")
-		)
-		(instances
-			(project ""
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IRLML0030")
 		(at 185.42 55.88 270)
 		(unit 1)
@@ -6666,10 +6596,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56187025-0f26-4049-8648-73ee5c2f0c86")
+			(uuid "56187025-0f26-4049-8648-73ee5c2f0c87")
 		)
 		(pin "2"
-			(uuid "f79cfc35-10ec-4a38-a87d-5475981d7e98")
+			(uuid "f79cfc35-10ec-4a38-a87d-5475981d7e99")
 		)
 		(instances
 			(project ""
@@ -6751,6 +6681,88 @@
 	)
 	(symbol
 		(lib_id "HPRsymbols:SMD-RES-1K-5_-1_16W_0402_")
+		(at 54.61 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62936eca-3ba3-4b5c-b5dd-5a8eea457327")
+		(property "Reference" "R5"
+			(at 55.88 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HPRfootprints:R0402"
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-071KL"
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8e43fbd-f75d-456c-986b-e7ac2d1b1c6c")
+		)
+		(pin "2"
+			(uuid "f92f3c30-a605-4ebc-9ec8-bc46660b8b2a")
+		)
+		(instances
+			(project "powerdistribution"
+				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPRsymbols:SMD-RES-1K-5_-1_16W_0402_")
 		(at 63.5 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6816,10 +6828,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56187025-0f26-4049-8648-73ee5c2f0c86")
+			(uuid "56187025-0f26-4049-8648-73ee5c2f0c88")
 		)
 		(pin "2"
-			(uuid "f79cfc35-10ec-4a38-a87d-5475981d7e98")
+			(uuid "f79cfc35-10ec-4a38-a87d-5475981d7e9a")
 		)
 		(instances
 			(project ""
@@ -7085,10 +7097,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2344e604-5de4-42b8-a2dd-9e09e1bf0915")
+			(uuid "2344e604-5de4-42b8-a2dd-9e09e1bf0916")
 		)
 		(pin "2"
-			(uuid "b8401e31-dd3c-4958-8b47-5179f2e1bd42")
+			(uuid "b8401e31-dd3c-4958-8b47-5179f2e1bd43")
 		)
 		(instances
 			(project ""
@@ -7492,10 +7504,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0da0e134-2ba7-40d2-97c1-7e9842692e05")
+			(uuid "0da0e134-2ba7-40d2-97c1-7e9842692e06")
 		)
 		(pin "1"
-			(uuid "7940dc30-4740-44ad-85d3-23e80ed4668d")
+			(uuid "7940dc30-4740-44ad-85d3-23e80ed4668e")
 		)
 		(instances
 			(project ""
@@ -7990,10 +8002,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0da0e134-2ba7-40d2-97c1-7e9842692e05")
+			(uuid "0da0e134-2ba7-40d2-97c1-7e9842692e07")
 		)
 		(pin "1"
-			(uuid "7940dc30-4740-44ad-85d3-23e80ed4668d")
+			(uuid "7940dc30-4740-44ad-85d3-23e80ed4668f")
 		)
 		(instances
 			(project ""
@@ -8464,10 +8476,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2344e604-5de4-42b8-a2dd-9e09e1bf0915")
+			(uuid "2344e604-5de4-42b8-a2dd-9e09e1bf0917")
 		)
 		(pin "2"
-			(uuid "b8401e31-dd3c-4958-8b47-5179f2e1bd42")
+			(uuid "b8401e31-dd3c-4958-8b47-5179f2e1bd44")
 		)
 		(instances
 			(project ""
@@ -8874,10 +8886,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2344e604-5de4-42b8-a2dd-9e09e1bf0915")
+			(uuid "2344e604-5de4-42b8-a2dd-9e09e1bf0918")
 		)
 		(pin "2"
-			(uuid "b8401e31-dd3c-4958-8b47-5179f2e1bd42")
+			(uuid "b8401e31-dd3c-4958-8b47-5179f2e1bd45")
 		)
 		(instances
 			(project ""
@@ -8944,10 +8956,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0da0e134-2ba7-40d2-97c1-7e9842692e05")
+			(uuid "0da0e134-2ba7-40d2-97c1-7e9842692e08")
 		)
 		(pin "1"
-			(uuid "7940dc30-4740-44ad-85d3-23e80ed4668d")
+			(uuid "7940dc30-4740-44ad-85d3-23e80ed46690")
 		)
 		(instances
 			(project ""
@@ -9025,10 +9037,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56187025-0f26-4049-8648-73ee5c2f0c86")
+			(uuid "56187025-0f26-4049-8648-73ee5c2f0c89")
 		)
 		(pin "2"
-			(uuid "f79cfc35-10ec-4a38-a87d-5475981d7e98")
+			(uuid "f79cfc35-10ec-4a38-a87d-5475981d7e9b")
 		)
 		(instances
 			(project ""
