@@ -1991,6 +1991,274 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPRlibrary:EG1218"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EG1218"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "EG1218:SW_EG1218"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch SPDT Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "EG1218"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "EG1218_0_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -5.08)
+					(end 2.54 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy -1.27 1.905) (xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.27 -0.635) (xy 0 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.905) (xy -1.27 -3.175) (xy 0 -2.54) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 3.175) (xy 1.27 3.175) (xy 1.27 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635)
+						(xy 0.635 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HPRlibrary:S3B-PH-K-S-GW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9487,6 +9755,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 208.28) (xy 95.25 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346f860c-cc9f-48e4-a7be-65d7757850ed")
+	)
+	(wire
+		(pts
 			(xy 306.07 234.95) (xy 321.31 234.95)
 		)
 		(stroke
@@ -9934,6 +10212,16 @@
 			(type default)
 		)
 		(uuid "633a1520-944a-4749-8058-4c4700bd58d6")
+	)
+	(wire
+		(pts
+			(xy 105.41 213.36) (xy 118.11 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647e6551-582d-45d4-8381-afa77877b048")
 	)
 	(wire
 		(pts
@@ -10867,6 +11155,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 222.25) (xy 95.25 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d452b8b1-ead9-420a-8bc8-6840c0eab344")
+	)
+	(wire
+		(pts
 			(xy 544.83 170.18) (xy 551.18 170.18)
 		)
 		(stroke
@@ -11197,6 +11495,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 215.9) (xy 118.11 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa88ad05-b45f-4dd0-a492-edd6c0b4ff66")
+	)
+	(wire
+		(pts
 			(xy 226.06 144.78) (xy 240.03 144.78)
 		)
 		(stroke
@@ -11324,6 +11632,16 @@
 			(justify right bottom)
 		)
 		(uuid "0e93b90c-5853-436c-aa49-3c8c45dab9aa")
+	)
+	(label "teensy_3.3v"
+		(at 95.25 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ee39fe5-0741-4a67-8fff-afa5401adb94")
 	)
 	(label "GPS_int"
 		(at 240.03 127 180)
@@ -11464,6 +11782,16 @@
 			(justify left bottom)
 		)
 		(uuid "25e1f144-af71-4989-8739-f76b05cd479f")
+	)
+	(label "gps_3.3v"
+		(at 95.25 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "274b2db0-3fbb-4058-a79a-b5024b5a71bb")
 	)
 	(label "gps_vbckp"
 		(at 63.5 232.41 0)
@@ -11785,7 +12113,7 @@
 		)
 		(uuid "52c118bb-c8c8-4976-a45c-315eb437e477")
 	)
-	(label "teensy_3.3v"
+	(label "gps_3.3v"
 		(at 49.53 236.22 0)
 		(effects
 			(font
@@ -11934,6 +12262,16 @@
 			(justify left bottom)
 		)
 		(uuid "6e96e5fc-f5e4-407c-9f22-f2f543737780")
+	)
+	(label "teensy_3.3v"
+		(at 105.41 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f20a67b-cadc-45f5-95e6-3de340d3f750")
 	)
 	(label "radio_dio4"
 		(at 375.92 186.69 0)
@@ -12535,6 +12873,16 @@
 		)
 		(uuid "e9d1ab24-013a-41d0-9824-9a6fab761908")
 	)
+	(label "gps_3.3v"
+		(at 105.41 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea7c6a34-db92-4a54-a5f0-3aa06c5f9827")
+	)
 	(label "buzz_pwm"
 		(at 240.03 172.72 180)
 		(effects
@@ -12809,7 +13157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRfootprints:XDCR_LSM6DSO32TR"
+		(property "Footprint" "HPRlibrary:XDCR_LSM6DSO32TR"
 			(at 68.58 121.92 0)
 			(effects
 				(font
@@ -13236,7 +13584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRfootprints:Teensy41"
+		(property "Footprint" "HPRlibrary:Teensy41"
 			(at 187.96 158.75 0)
 			(effects
 				(font
@@ -13633,7 +13981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.5352 116.84 0)
 			(effects
 				(font
@@ -14186,7 +14534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRfootprints:MODULE_RFM96W-433S2"
+		(property "Footprint" "HPRlibrary:MODULE_RFM96W-433S2"
 			(at 215.9 254 0)
 			(effects
 				(font
@@ -14765,7 +15113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 332.4352 62.23 0)
 			(effects
 				(font
@@ -15008,6 +15356,141 @@
 		)
 	)
 	(symbol
+		(lib_id "HPRlibrary:EG1218")
+		(at 123.19 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d94c5ba-961f-4497-86be-47275a92dfd0")
+		(property "Reference" "S1"
+			(at 127 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 127 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HPRlibrary:SW_EG1218"
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch SPDT Through Hole"
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 123.19 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77e72968-5103-4f48-bb37-5301d8350257")
+		)
+		(pin "2"
+			(uuid "fe5aa37f-a68f-4692-9dbe-b563a2135e0a")
+		)
+		(pin "3"
+			(uuid "6d75d969-cde9-497c-843b-52d2be8a09f7")
+		)
+		(instances
+			(project ""
+				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 157.48 147.32 90)
 		(unit 1)
@@ -15197,7 +15680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 218.1352 52.07 0)
 			(effects
 				(font
@@ -15330,7 +15813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 106.3752 119.38 0)
 			(effects
 				(font
@@ -15463,7 +15946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRfootprints:PQFN50P450X300X100-16N"
+		(property "Footprint" "HPRlibrary:PQFN50P450X300X100-16N"
 			(at 173.99 55.88 0)
 			(effects
 				(font
@@ -15585,7 +16068,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "497b9930-2ed3-40cd-9974-aecea6c59f15")
 		(property "Reference" "BZ1"
@@ -16192,7 +16675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "S3BPHKSGW"
+		(property "Footprint" "HPRlibrary:S3BPHKSGW"
 			(at 337.82 329.87 0)
 			(effects
 				(font
@@ -16385,7 +16868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SHDRRA4W50P0X200_1X4_990X760X480P"
+		(property "Footprint" "HPRlibrary:S4B-PH-K-S_LF__SN_"
 			(at 389.89 310.82 0)
 			(effects
 				(font
@@ -16913,7 +17396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRfootprints:PQFN50P200X200X70-12N"
+		(property "Footprint" "HPRlibrary:PQFN50P200X200X70-12N"
 			(at 280.67 57.15 0)
 			(effects
 				(font
@@ -17389,7 +17872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "S3BPHKSGW"
+		(property "Footprint" "HPRlibrary:S3BPHKSGW"
 			(at 337.82 313.36 0)
 			(effects
 				(font
@@ -17487,6 +17970,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 95.25 214.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "7f24cd94-50d1-487e-a2b3-9aa6e625897e")
+		(property "Reference" "R17"
+			(at 97.79 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 97.79 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 97.028 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0bb14a6-4c9d-4568-bdd7-7ab93b4736f4")
+		)
+		(pin "1"
+			(uuid "90c99d77-8143-4d69-94a1-441e40414b9d")
+		)
+		(instances
+			(project "flightcomputer"
+				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 306.07 58.42 0)
 		(unit 1)
@@ -17514,7 +18067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 307.0352 62.23 0)
 			(effects
 				(font
@@ -18981,7 +19534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "S3BPHKSGW"
+		(property "Footprint" "HPRlibrary:S3BPHKSGW"
 			(at 389.89 329.87 0)
 			(effects
 				(font
@@ -19892,7 +20445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.1452 52.07 0)
 			(effects
 				(font
@@ -20094,7 +20647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 50.8 243.84 0)
 			(effects
 				(font
@@ -20405,7 +20958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 322.2752 62.23 0)
 			(effects
 				(font
@@ -20647,7 +21200,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 226.06 110.49 270)
+		(at 157.48 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20656,25 +21209,23 @@
 		(fields_autoplaced yes)
 		(uuid "e44a21b0-3456-4803-ba9c-99732693180c")
 		(property "Reference" "TP1"
-			(at 231.14 109.2199 90)
+			(at 154.178 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 231.14 111.7599 90)
+			(at 154.178 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
-			(at 226.06 115.57 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 157.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20683,7 +21234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 115.57 0)
+			(at 157.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20692,7 +21243,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 226.06 110.49 0)
+			(at 157.48 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20874,7 +21425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 209.2452 63.5 0)
 			(effects
 				(font
@@ -20944,7 +21495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2998TR:BAT_2998TR"
+		(property "Footprint" "HPRlibrary:BAT_2998TR"
 			(at 143.51 262.89 0)
 			(effects
 				(font
@@ -21068,7 +21619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 46.99 246.38 0)
 			(effects
 				(font
@@ -21402,7 +21953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRfootprints:RHDR40W66P254_2X20_5146X500X1105P"
+		(property "Footprint" "HPRlibrary:RHDR40W66P254_2X20_5146X500X1105P"
 			(at 323.85 221.92 0)
 			(effects
 				(font
