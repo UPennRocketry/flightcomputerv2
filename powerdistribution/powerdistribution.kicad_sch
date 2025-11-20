@@ -4614,199 +4614,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMBT3904_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "MMBT3904_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:IRLML0030"
 			(pin_names
 				(offset 0)
@@ -5564,12 +5371,6 @@
 		(uuid "1b679cc3-cbeb-4a42-9b92-1c74b3e91c5e")
 	)
 	(junction
-		(at 308.61 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2155e318-1f11-4577-b7d3-6b2232dfbffc")
-	)
-	(junction
 		(at 307.34 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5648,12 +5449,6 @@
 		(uuid "3e4c34a0-40ce-4d49-9206-a59e5ba29ed6")
 	)
 	(junction
-		(at 316.23 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40b746e5-cc99-4c8a-afbd-7dd707fd1875")
-	)
-	(junction
 		(at 359.41 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5670,6 +5465,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b13bc32-6376-47fd-8509-359e4cac3115")
+	)
+	(junction
+		(at 316.23 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e070293-fa2f-4589-bb0d-bc980a6273ea")
 	)
 	(junction
 		(at 320.04 215.9)
@@ -5804,6 +5605,12 @@
 		(uuid "91fb1849-86b3-40b0-8d05-dfd04aa92692")
 	)
 	(junction
+		(at 316.23 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9439e729-d05f-470b-9c70-acc99400853b")
+	)
+	(junction
 		(at 152.4 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5826,12 +5633,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9e06ca8-f806-46fd-8d22-cdbd41c73288")
-	)
-	(junction
-		(at 316.23 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1be5804-3d3d-4f8e-8cb8-539bbe8e04b3")
 	)
 	(junction
 		(at 193.04 151.13)
@@ -5904,6 +5705,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6631dbc-a8b7-43c8-a895-61b5c1e001a6")
+	)
+	(junction
+		(at 308.61 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca538660-2a5b-4ec0-8e9c-4f645f5c5658")
 	)
 	(junction
 		(at 83.82 323.85)
@@ -16867,6 +16674,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 313.69 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e4a4657-97dc-4e2d-96aa-17dfcf557cbb")
+		(property "Reference" "Q5"
+			(at 320.04 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 322.58 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 318.77 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 318.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 313.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ad1d082-2911-4106-9365-22c3fe8fd846")
+		)
+		(pin "3"
+			(uuid "1d38eec1-4b57-4014-afba-cd0a2e38ab7a")
+		)
+		(pin "1"
+			(uuid "6d123cbd-65ac-4b3e-9d5f-8b6fe0be40c9")
+		)
+		(instances
+			(project "powerdistribution"
+				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 68.58 0)
 		(unit 1)
@@ -21558,6 +21439,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML0030")
+		(at 313.69 90.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85de055b-6f3f-45b4-adb3-ed1e245e0313")
+		(property "Reference" "Q3"
+			(at 320.04 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRLML0030"
+			(at 322.58 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 318.77 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df"
+			(at 318.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+			(at 313.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "519596a3-6002-4e4d-97d1-819d206cf805")
+		)
+		(pin "3"
+			(uuid "65d724ee-131a-4f23-ae63-60cbb0aeb1a6")
+		)
+		(pin "1"
+			(uuid "58cf3f38-2552-41d6-9c2c-d641bf2c1660")
+		)
+		(instances
+			(project "powerdistribution"
+				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 367.03 328.93 0)
 		(unit 1)
@@ -22508,100 +22463,6 @@
 			(project ""
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 313.69 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96e97b5f-7196-42dd-9962-f18b526f59aa")
-		(property "Reference" "Q3"
-			(at 318.77 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 318.77 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 318.77 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 313.69 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 313.69 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MMBT3904LT3G"
-			(at 313.69 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-3 (TO-236)"
-			(at 313.69 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93a75a5d-c079-4409-ac32-73c38c04699a")
-		)
-		(pin "1"
-			(uuid "dce69551-a1da-43a5-b440-d77db1988005")
-		)
-		(pin "3"
-			(uuid "cd7f6339-ff94-4a39-95b6-d6b4447c0f95")
-		)
-		(instances
-			(project "powerdistribution"
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -25437,82 +25298,6 @@
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 313.69 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d66d6ad8-9f54-4b96-aba4-68d41f1e8a0d")
-		(property "Reference" "Q3"
-			(at 318.77 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 318.77 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 318.77 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 313.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 313.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "caeaa5e5-0bd9-403b-90f8-54beb0343f1e")
-		)
-		(pin "2"
-			(uuid "0f94dae9-1883-478c-af95-e52a49c1a603")
-		)
-		(pin "3"
-			(uuid "93856cb2-77d1-43ae-9442-352bdc080a92")
-		)
-		(instances
-			(project "powerdistribution"
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
