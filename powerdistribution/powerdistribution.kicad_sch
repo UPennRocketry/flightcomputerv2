@@ -20675,13 +20675,13 @@
 		(at 107.95 345.44 90)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc7c2a1-6476-43d8-be59-3924b3338ebc")
-		(property "Reference" "100nf"
+		(property "Reference" "C36"
 			(at 107.95 337.82 90)
 			(effects
 				(font
@@ -20689,7 +20689,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 107.95 340.36 90)
 			(effects
 				(font
@@ -20733,7 +20733,7 @@
 		(instances
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "100nf")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -25950,7 +25950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6eda1cf-9f33-40b7-bff3-b43e863b83a6")
-		(property "Reference" "100nf2"
+		(property "Reference" "C35"
 			(at 106.68 179.07 90)
 			(effects
 				(font
@@ -25958,7 +25958,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 106.68 181.61 90)
 			(effects
 				(font
@@ -26002,7 +26002,7 @@
 		(instances
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "100nf2")
+					(reference "C35")
 					(unit 1)
 				)
 			)
