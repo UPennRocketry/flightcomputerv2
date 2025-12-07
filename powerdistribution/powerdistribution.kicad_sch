@@ -3651,6 +3651,291 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPRsymbols:CL31B106KAHNNNE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CL31B106KAHNNNE"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CL31B106KAHNNNE:CAPC3216X180N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "E_max" "1.8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L_max" "0.8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A_max" "1.8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L1_nom" "0.5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D_max" "3.4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A_nom" "1.8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L1_max" "0.8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L1_min" "0.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A_min" "1.8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E_min" "1.4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D_min" "3.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D_nom" "3.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E_nom" "1.6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L_min" "0.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L_nom" "0.5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CL31B106KAHNNNE_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HPRsymbols:CSNL2512FT1L00"
 			(pin_names
 				(offset 0.254)
@@ -7077,6 +7362,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 327.66) (xy 74.93 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04468f9e-ed26-4829-952a-eb717d2b0ef6")
+	)
+	(wire
+		(pts
 			(xy 80.01 311.15) (xy 80.01 306.07)
 		)
 		(stroke
@@ -7297,6 +7592,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 335.28) (xy 74.93 334.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16965161-1fa9-40e6-8a92-52a0a67b01ae")
+	)
+	(wire
+		(pts
 			(xy 193.04 140.97) (xy 193.04 143.51)
 		)
 		(stroke
@@ -7384,6 +7689,16 @@
 			(type default)
 		)
 		(uuid "1ecd250b-e8df-456e-a6a5-1bbbb14545c3")
+	)
+	(wire
+		(pts
+			(xy 76.2 335.28) (xy 74.93 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2089a676-ab3e-4d72-be63-990e5f63aab5")
 	)
 	(wire
 		(pts
@@ -7527,6 +7842,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 328.93) (xy 67.31 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eca4af6-1132-4f5a-b1dc-336a2667153b")
+	)
+	(wire
+		(pts
 			(xy 177.8 160.02) (xy 170.18 160.02)
 		)
 		(stroke
@@ -7564,6 +7889,16 @@
 			(type default)
 		)
 		(uuid "313f8145-b23c-4867-8241-b63b9ef25176")
+	)
+	(wire
+		(pts
+			(xy 67.31 327.66) (xy 66.04 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3153e63a-cb88-4f5f-837e-ca5de7c8f8d5")
 	)
 	(wire
 		(pts
@@ -7607,6 +7942,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 334.01) (xy 67.31 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3401b5bd-d850-4d50-a7bf-ec741765ff52")
+	)
+	(wire
+		(pts
 			(xy 72.39 80.01) (xy 86.36 80.01)
 		)
 		(stroke
@@ -7614,6 +7959,16 @@
 			(type default)
 		)
 		(uuid "355f762c-6e96-4851-89f7-583930e7362e")
+	)
+	(wire
+		(pts
+			(xy 58.42 95.25) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35af2dbc-c4f9-454d-b316-ac221e841dc6")
 	)
 	(wire
 		(pts
@@ -7807,7 +8162,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 173.99) (xy 73.66 173.99)
+			(xy 69.85 173.99) (xy 74.93 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8307,6 +8662,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 168.91) (xy 73.66 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6815bf11-b130-4c71-80d2-f01678b9be74")
+	)
+	(wire
+		(pts
 			(xy 367.03 165.1) (xy 367.03 170.18)
 		)
 		(stroke
@@ -8467,13 +8832,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 173.99) (xy 66.04 173.99)
+			(xy 102.87 54.61) (xy 110.49 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74f37ef9-19a4-49dd-bc51-be387a5082da")
+		(uuid "756852a7-d286-4ed3-86db-3a0f4ba2c833")
 	)
 	(wire
 		(pts
@@ -8897,6 +9262,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 173.99) (xy 64.77 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f30d9b-b9d0-4b6b-912c-a44b1e3ef7c0")
+	)
+	(wire
+		(pts
 			(xy 147.32 323.85) (xy 140.97 323.85)
 		)
 		(stroke
@@ -9157,16 +9532,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 58.42 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac211648-f370-4d57-a088-771551389c63")
-	)
-	(wire
-		(pts
 			(xy 182.88 54.61) (xy 182.88 55.88)
 		)
 		(stroke
@@ -9204,6 +9569,16 @@
 			(type default)
 		)
 		(uuid "ae2d3e9b-799f-433d-a751-cb5a2587a5a9")
+	)
+	(wire
+		(pts
+			(xy 64.77 173.99) (xy 69.85 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4bfcaa-f7f3-41a4-8391-0cee9aec822a")
 	)
 	(wire
 		(pts
@@ -9327,6 +9702,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 168.91) (xy 66.04 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd96b2d8-a431-4b2c-9fa2-141eef46f13d")
+	)
+	(wire
+		(pts
 			(xy 313.69 130.81) (xy 313.69 133.35)
 		)
 		(stroke
@@ -9354,6 +9739,16 @@
 			(type default)
 		)
 		(uuid "bf4ff944-d93c-4e3c-bbfa-ff216e6d659c")
+	)
+	(wire
+		(pts
+			(xy 67.31 335.28) (xy 66.04 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7fd4f3-9e14-4fd5-abfe-7cbd56b4107d")
 	)
 	(wire
 		(pts
@@ -9394,6 +9789,16 @@
 			(type default)
 		)
 		(uuid "c17797d9-8c77-4cc9-8a7d-abdc9ca0692b")
+	)
+	(wire
+		(pts
+			(xy 73.66 167.64) (xy 74.93 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c195d94a-dcf6-4f94-8df0-da8f980941c7")
 	)
 	(wire
 		(pts
@@ -9687,6 +10092,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 175.26) (xy 74.93 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e0f271-eeba-4ad3-8515-6c44377d232d")
+	)
+	(wire
+		(pts
 			(xy 87.63 64.77) (xy 87.63 72.39)
 		)
 		(stroke
@@ -9847,6 +10262,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 167.64) (xy 64.77 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de152510-c92d-43a4-9747-f556e734fc5c")
+	)
+	(wire
+		(pts
 			(xy 71.12 334.01) (xy 74.93 334.01)
 		)
 		(stroke
@@ -9954,6 +10379,16 @@
 			(type default)
 		)
 		(uuid "e7837015-c2d0-4fd3-9c7a-1d2ec6b4d8fd")
+	)
+	(wire
+		(pts
+			(xy 76.2 327.66) (xy 74.93 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e879206c-aa88-404b-8e91-e0df037ee192")
 	)
 	(wire
 		(pts
@@ -10144,16 +10579,6 @@
 			(type default)
 		)
 		(uuid "fabb04c1-77b8-42a4-b97c-501da381e70f")
-	)
-	(wire
-		(pts
-			(xy 100.33 54.61) (xy 110.49 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb24c9c2-0db1-47ae-a919-db159c7605b7")
 	)
 	(wire
 		(pts
@@ -17220,7 +17645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ERJ2RKF1004X:RES_ERJ2RKF1004X"
+		(property "Footprint" "HPRfootprints:RES_ERJ2RKF1004X"
 			(at 173.482 75.184 0)
 			(effects
 				(font
@@ -18747,36 +19172,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 176.53 243.84 0)
-		(mirror y)
+		(lib_id "HPRsymbols:CL31B106KAHNNNE")
+		(at 76.2 332.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e820c9d-d1e3-4729-9883-6b056de4f87d")
-		(property "Reference" "C11"
-			(at 173.99 242.5762 0)
+		(uuid "2c557ee6-8447-4005-89b7-c46fdeed2af7")
+		(property "Reference" "C20"
+			(at 80.01 330.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "22 uf"
-			(at 173.99 245.1162 0)
+		(property "Value" "CL31B106KAHNNNE"
+			(at 80.01 332.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.53 243.84 0)
+		(property "Footprint" "CL31B106KAHNNNE:CAPC3216X180N"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18784,8 +19218,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 176.53 243.84 0)
+		(property "Description" ""
+			(at 76.2 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18793,25 +19227,186 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 176.53 243.84 0)
+		(property "E_max" "1.8"
+			(at 76.2 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2ffe97c2-9d53-4262-92bc-aaab750a9b7d")
+		(property "L_max" "0.8"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "1.8"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "3.4"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "1.8"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.8"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "1.8"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "1.4"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "3.0"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "3.2"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "1.6"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 76.2 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "090edde0-7b90-47b1-96a1-10cc2173850d")
+			(uuid "eb2e2181-341c-4682-903d-2305614b31fe")
+		)
+		(pin "1"
+			(uuid "75a47597-0f5f-4b19-810a-bfd2910d7e14")
 		)
 		(instances
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "C11")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -18954,6 +19549,247 @@
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPRsymbols:CL31B106KAHNNNE")
+		(at 74.93 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36cc25ad-8811-498d-99a9-ceaaf1b4c370")
+		(property "Reference" "C5"
+			(at 78.74 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CL31B106KAHNNNE"
+			(at 78.74 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CL31B106KAHNNNE:CAPC3216X180N"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E_max" "1.8"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_max" "0.8"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "1.8"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "3.4"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "1.8"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.8"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "1.8"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "1.4"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "3.0"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "3.2"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "1.6"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 74.93 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c76b8378-ac23-4fc9-8388-4886fab213a7")
+		)
+		(pin "1"
+			(uuid "a4dc27bd-37ee-42ca-bda4-ebc6ea0231d5")
+		)
+		(instances
+			(project ""
+				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -19230,6 +20066,246 @@
 		)
 	)
 	(symbol
+		(lib_id "HPRsymbols:CL31B106KAHNNNE")
+		(at 64.77 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aeee948-f03b-466c-ab83-a721ae918604")
+		(property "Reference" "C6"
+			(at 60.452 169.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CL31B106KAHNNNE"
+			(at 44.45 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CL31B106KAHNNNE:CAPC3216X180N"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E_max" "1.8"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_max" "0.8"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "1.8"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "3.4"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "1.8"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.8"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "1.8"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "1.4"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "3.0"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "3.2"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "1.6"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 64.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "150cad59-0a7c-49b7-890f-9f560705cb5d")
+		)
+		(pin "1"
+			(uuid "a0979803-3a26-4f26-9f8b-b44661eda3d3")
+		)
+		(instances
+			(project "powerdistribution"
+				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2025-11-16_06-05-29:AP64501QSP-13")
 		(at 86.36 167.64 0)
 		(mirror x)
@@ -19346,7 +20422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RHDR40W66P254_2X20_5146X500X1105P"
+		(property "Footprint" "HPRfootprints:RHDR40W66P254_2X20_5146X500X1105P"
 			(at 505.46 291.77 0)
 			(effects
 				(font
@@ -19739,75 +20815,6 @@
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 74.93 331.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "470866c6-bff1-4b68-b6a9-e1861eabf0f7")
-		(property "Reference" "C27"
-			(at 77.47 330.2062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uf"
-			(at 77.47 332.7462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 74.93 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e282de0-a63f-49a4-8170-671c376da7ac")
-		)
-		(pin "2"
-			(uuid "d5820046-18c3-4275-a47d-0455585f63d2")
-		)
-		(instances
-			(project "powerdistribution"
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -20552,6 +21559,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "581695c5-a403-47ca-9b15-2c10e496dd6a")
+		(property "Reference" "#PWR050"
+			(at 214.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "075bb5da-fc00-4e51-b891-75e10a387f07")
+		)
+		(instances
+			(project ""
+				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPRsymbols:SMD-RES-1K-5_-1_16W_0402_")
 		(at 67.31 72.39 0)
 		(unit 1)
@@ -20930,7 +22003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ERJ2RKF1004X:RES_ERJ2RKF1004X"
+		(property "Footprint" "HPRfootprints:RES_ERJ2RKF1004X"
 			(at 202.184 69.088 0)
 			(effects
 				(font
@@ -21433,7 +22506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603C104K5RACTU:CAPC1608X90"
+		(property "Footprint" "HPRfootprints:CAPC1608X90"
 			(at 77.47 76.2 0)
 			(effects
 				(font
@@ -21983,76 +23056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 171.45 243.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "72ba8e1d-c0d7-4ab1-acb8-a48ab928e07c")
-		(property "Reference" "C10"
-			(at 168.91 242.5762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22 uf"
-			(at 168.91 245.1162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 171.45 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cadc6fcf-097a-4bdb-aa42-3a7b603d68dc")
-		)
-		(pin "2"
-			(uuid "0f37a155-c7a5-4c8a-8411-b721067fcb6c")
-		)
-		(instances
-			(project "powerdistribution"
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 316.23 95.25 0)
 		(unit 1)
@@ -22146,7 +23149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "UMK107AB7105KA-T:CAPC1608X95N"
+		(property "Footprint" "HPRfootprints:CAPC1608X95N"
 			(at 187.96 53.34 0)
 			(effects
 				(font
@@ -22251,148 +23254,6 @@
 			(project ""
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 181.61 243.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "78f9b6b6-2018-47aa-b576-f7f0f8d591c5")
-		(property "Reference" "C10"
-			(at 179.07 242.5762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uf"
-			(at 179.07 245.1162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 181.61 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "231dd044-1d7f-4e8c-9350-3779334e51c8")
-		)
-		(pin "2"
-			(uuid "ebdb9b2a-2772-4484-b4bc-7904c6a3e7dc")
-		)
-		(instances
-			(project "powerdistribution"
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 66.04 171.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c9f1695-a14d-4fb4-9337-9bb538919652")
-		(property "Reference" "C21"
-			(at 63.5 170.1862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uf"
-			(at 63.5 172.7262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec497ff2-e3d3-4f38-8134-7834b1e510cb")
-		)
-		(pin "2"
-			(uuid "d58ecec1-c619-4e4d-95aa-ba9bfbac1cb4")
-		)
-		(instances
-			(project "powerdistribution"
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -22873,77 +23734,6 @@
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 67.31 331.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "883af57d-3f74-41e4-93b3-9364fc4ee680")
-		(property "Reference" "C28"
-			(at 64.77 330.2062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uf"
-			(at 64.77 332.7462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 67.31 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "badc9d87-fc81-47bf-a1f1-49b584b6592e")
-		)
-		(pin "2"
-			(uuid "cc87e863-27bb-4dc1-afea-e39e2f83b551")
-		)
-		(instances
-			(project "powerdistribution"
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -23858,7 +24648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603FR-0710KL:RESC1607X60N"
+		(property "Footprint" "HPRfootprints:RESC1607X60N"
 			(at 152.4 72.39 0)
 			(effects
 				(font
@@ -24715,34 +25505,44 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 73.66 171.45 0)
+		(lib_id "HPRsymbols:CL31B106KAHNNNE")
+		(at 66.04 332.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b39fb715-46ea-4c70-ab0d-521e025aaf88")
-		(property "Reference" "C20"
-			(at 76.2 170.1862 0)
+		(uuid "b3eefc75-1235-4e12-b6b9-38bda76f6760")
+		(property "Reference" "C10"
+			(at 61.722 329.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10 uf"
-			(at 76.2 172.7262 0)
+		(property "Value" "CL31B106KAHNNNE"
+			(at 45.72 334.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 171.45 0)
+		(property "Footprint" "CL31B106KAHNNNE:CAPC3216X180N"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24750,8 +25550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 73.66 171.45 0)
+		(property "Description" ""
+			(at 66.04 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24759,25 +25559,186 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 73.66 171.45 0)
+		(property "E_max" "1.8"
+			(at 66.04 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "999b6c69-ca12-45f3-8047-5084f90fc5a0")
+		(property "L_max" "0.8"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "1.8"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "3.4"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "1.8"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.8"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "1.8"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "1.4"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "3.0"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "3.2"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "1.6"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 66.04 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "bb0a024b-83d8-444c-913b-a2cfd6ce7d59")
+			(uuid "bb40159e-5f12-4549-b034-548ac33f1d2f")
+		)
+		(pin "1"
+			(uuid "5915cf4c-10c9-46a7-998c-e13edf1a491d")
 		)
 		(instances
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "C20")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -24809,7 +25770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603C104K5RACTU:CAPC1608X90"
+		(property "Footprint" "HPRfootprints:CAPC1608X90"
 			(at 77.47 68.58 0)
 			(effects
 				(font
@@ -24848,10 +25809,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "498a104d-095c-4f7d-8913-01884753dbcf")
+			(uuid "498a104d-095c-4f7d-8913-01884753dbd0")
 		)
 		(pin "2"
-			(uuid "75905c61-dc66-41b0-af33-4675d17416c0")
+			(uuid "75905c61-dc66-41b0-af33-4675d17416c1")
 		)
 		(instances
 			(project ""
@@ -24958,7 +25919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UMK107AB7105KA-T:CAPC1608X95N"
+		(property "Footprint" "HPRfootprints:CAPC1608X95N"
 			(at 172.72 54.61 0)
 			(effects
 				(font
@@ -24987,10 +25948,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbef8da8-0914-4594-97aa-bfa0cb4bd95a")
+			(uuid "fbef8da8-0914-4594-97aa-bfa0cb4bd95b")
 		)
 		(pin "2"
-			(uuid "8695ebed-14db-4269-9e3d-388e9e641d7b")
+			(uuid "8695ebed-14db-4269-9e3d-388e9e641d7c")
 		)
 		(instances
 			(project ""
@@ -25229,7 +26190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STA_CSNL25121_STP"
+		(property "Footprint" "HPRfootprints:STA_CSNL25121_STP"
 			(at 90.17 64.77 0)
 			(effects
 				(font
@@ -26586,7 +27547,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "C0603C104K5RACTU:CAPC1608X90"
+		(property "Footprint" "HPRfootprints:CAPC1608X90"
 			(at 72.39 92.71 0)
 			(effects
 				(font
@@ -26625,10 +27586,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "498a104d-095c-4f7d-8913-01884753dbcf")
+			(uuid "498a104d-095c-4f7d-8913-01884753dbd1")
 		)
 		(pin "2"
-			(uuid "75905c61-dc66-41b0-af33-4675d17416c0")
+			(uuid "75905c61-dc66-41b0-af33-4675d17416c2")
 		)
 		(instances
 			(project ""
@@ -26935,7 +27896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603C104K5RACTU:CAPC1608X90"
+		(property "Footprint" "HPRfootprints:CAPC1608X90"
 			(at 77.47 83.82 0)
 			(effects
 				(font
@@ -26974,10 +27935,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "498a104d-095c-4f7d-8913-01884753dbcf")
+			(uuid "498a104d-095c-4f7d-8913-01884753dbd2")
 		)
 		(pin "2"
-			(uuid "75905c61-dc66-41b0-af33-4675d17416c0")
+			(uuid "75905c61-dc66-41b0-af33-4675d17416c3")
 		)
 		(instances
 			(project ""
@@ -28103,7 +29064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC1206N_YAG"
+		(property "Footprint" "HPRfootprints:RC1206N_YAG"
 			(at 160.02 67.31 0)
 			(effects
 				(font
