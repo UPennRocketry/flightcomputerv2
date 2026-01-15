@@ -3419,7 +3419,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1"
+		(property "Footprint" "HPRlibrary:MODULE_ESP32_DEVKIT_V1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3569,8 +3569,8 @@
 		)
 		(symbol "ESP32-DEVKIT-V1_0_0"
 			(rectangle
-				(start -10.16 -27.94)
-				(end 10.16 27.94)
+				(start -10.16 27.94)
+				(end 10.16 -27.94)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -7021,6 +7021,212 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NCP718ASNADJT1G"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 26.67 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "NCP718ASNADJT1G"
+			(at 26.67 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "SOT95P280X100-5N"
+			(at 26.67 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF"
+			(at 26.67 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "UltraLow Quiescent Current typ. 4 A over Temperature; Operating Input Voltage Range 2.5 V to 24 V; Adjustable and Fixed Version Available; High PSRR 60dB at 1kHz; Noise typ. 36 VRMS from 100 Hz to 100 kHz; Stable with 1 F output capacitor; Softstart to Reduce Inrush Current and Overshoots; SOA Limiting for High Vin / High Iout  Static and Dynamic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 26.67 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NCP718ASNADJT1G"
+			(at 26.67 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP718ASNADJT1G?qs=chTDxNqvsymUybyNIPqpvQ%3D%3D"
+			(at 26.67 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 26.67 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NCP718ASNADJT1G"
+			(at 26.67 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "NCP718ASNADJT1G_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 25.4 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 0 180)
+				(length 5.08)
+				(name "NC/ADJ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -2.54 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
