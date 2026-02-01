@@ -7404,12 +7404,6 @@
 		(uuid "4c6f1359-727b-4bb0-9ac2-e52bbe5f88fe")
 	)
 	(junction
-		(at 490.22 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f44fbfc-850e-4d91-812d-12f77d0a962d")
-	)
-	(junction
 		(at 351.79 314.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7528,6 +7522,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95e73511-a422-4c22-ad2d-70254b59ad17")
+	)
+	(junction
+		(at 490.22 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96be01b4-eea4-456d-9490-587f6dc06f4e")
 	)
 	(junction
 		(at 162.56 175.26)
@@ -16795,7 +16795,7 @@
 		)
 		(uuid "6f0e07e6-8f6a-41f6-933a-8edd550e463c")
 	)
-	(label "5V_EN"
+	(label "5V_DIAGEN"
 		(at 69.85 328.93 0)
 		(effects
 			(font
@@ -19270,76 +19270,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 435.61 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c40a0a8-16b3-405b-bb91-562984570054")
-		(property "Reference" "C42"
-			(at 439.42 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 439.42 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 436.5752 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 435.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 435.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd1bb44c-3e81-4e18-a0d8-ed884aa728cc")
-		)
-		(pin "1"
-			(uuid "40c01d55-a508-469e-b7bb-50fac4bd3c16")
-		)
-		(instances
-			(project "powerdistribution"
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 234.95 337.82 0)
 		(mirror x)
@@ -20215,7 +20145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRlibrary:IC_TPS1HC30BQPWPRQ1"
+		(property "Footprint" "HPRfootprints:IC_TPS1HC30BQPWPRQ1"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -21175,7 +21105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRlibrary:SO-8EP_DIO-L"
+		(property "Footprint" "HPRfootprints:SO-8EP_DIO-L"
 			(at 247.65 323.85 0)
 			(effects
 				(font
@@ -21445,6 +21375,76 @@
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 490.22 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a64228a-6457-40d8-9f7f-d939ff86fcd6")
+		(property "Reference" "C43"
+			(at 494.03 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 494.03 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 491.1852 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 490.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 490.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5a73b2b-1d0e-413f-8588-995b1a95752b")
+		)
+		(pin "2"
+			(uuid "f2387276-5f70-4156-90b3-bbda5a88ee08")
+		)
+		(instances
+			(project ""
+				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -21898,7 +21898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRlibrary:NCP718_SOT95P280X100-5N"
+		(property "Footprint" "HPRfootprints:NCP718_SOT95P280X100-5N"
 			(at 476.25 193.98 0)
 			(effects
 				(font
@@ -25774,6 +25774,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 435.61 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "993ce74a-24f5-45a3-a89a-47fc48180fbb")
+		(property "Reference" "C42"
+			(at 439.42 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 439.42 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 436.5752 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 435.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 435.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1466f58-a580-405a-a2d8-66309130e4b9")
+		)
+		(pin "2"
+			(uuid "4b701412-b65b-46e0-93eb-06c3337a36a5")
+		)
+		(instances
+			(project ""
+				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 309.88 52.07 90)
 		(unit 1)
@@ -26697,7 +26767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRlibrary:MODULE_ESP32_DEVKIT_V1"
+		(property "Footprint" "HPRfootprints:MODULE_ESP32_DEVKIT_V1"
 			(at 487.68 182.88 0)
 			(effects
 				(font
@@ -27315,7 +27385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRlibrary:IC_TPS1HC30BQPWPRQ1"
+		(property "Footprint" "HPRfootprints:IC_TPS1HC30BQPWPRQ1"
 			(at 114.3 328.93 0)
 			(effects
 				(font
@@ -27432,76 +27502,6 @@
 			(project "powerdistribution"
 				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 490.22 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5a4b7dc-ef31-47f3-8a62-0a25f3bab7f4")
-		(property "Reference" "C43"
-			(at 494.03 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 494.03 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 491.1852 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 490.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 490.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0531bb3e-94d8-4722-bbd1-75674368084e")
-		)
-		(pin "1"
-			(uuid "cf135f75-7b32-4f3e-a297-94474de2e8a8")
-		)
-		(instances
-			(project "powerdistribution"
-				(path "/4cf67788-0fe7-4c87-8363-3433eaa0df90"
-					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -28313,7 +28313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 316.23 307.34 0)
 			(effects
 				(font
@@ -28668,7 +28668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HPRlibrary:SO-8EP_DIO-L"
+		(property "Footprint" "HPRfootprints:SO-8EP_DIO-L"
 			(at 245.11 242.57 0)
 			(effects
 				(font
@@ -29539,7 +29539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 313.69 226.06 0)
 			(effects
 				(font
