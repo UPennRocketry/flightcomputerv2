@@ -7053,7 +7053,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOT95P280X100-5N"
+		(property "Footprint" "HPRlibrary:NCP718_SOT95P280X100-5N"
 			(at 26.67 -94.92 0)
 			(effects
 				(font
