@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/RocketryLibrary/Footprints")(options "")(descr ""))
   (lib (name "HPRfootprints")(type "KiCad")(uri "${KIPRJMOD}/RocketryLibrary/Footprints/HPRfootprints.pretty")(options "")(descr ""))
+  (lib (name "HPR3DModels")(type "KiCad")(uri "${KIPRJMOD}/RocketryLibrary/3Dmodels")(options "")(descr ""))
 )
