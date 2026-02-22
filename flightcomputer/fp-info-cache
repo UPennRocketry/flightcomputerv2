@@ -1,4 +1,4 @@
-26830646014946937
+26832417791366346
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62558,6 +62558,13 @@ Connector
 0
 4
 4
+HPRlibrary
+SAMTEC_ESQ-113-14-G-D
+
+
+0
+26
+26
 HPRlibrary
 SLW-913535_CUD
 
