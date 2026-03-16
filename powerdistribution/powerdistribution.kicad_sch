@@ -16415,6 +16415,16 @@
 		)
 		(uuid "1a18baad-e192-4fe7-85b3-945146c904b1")
 	)
+	(label "6V_SWout"
+		(at 185.42 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b9f55a4-8bbe-4c14-8b8a-5e71f4856d9c")
+	)
 	(label "5V"
 		(at 459.74 157.48 180)
 		(effects
@@ -16514,6 +16524,16 @@
 			(justify left bottom)
 		)
 		(uuid "5708e195-9d26-43b5-abe8-09730f3a506f")
+	)
+	(label "B2"
+		(at 58.42 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5745b551-8284-4329-ab65-7121da1ccb24")
 	)
 	(label "LDO_5V"
 		(at 50.8 224.79 180)
@@ -16644,6 +16664,16 @@
 			(justify left bottom)
 		)
 		(uuid "7bdda38a-8ab0-4979-82c4-389eb1ece0ee")
+	)
+	(label "5V_SWout"
+		(at 185.42 326.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d4d0433-77b0-4fd9-98cd-ff14adf56dc5")
 	)
 	(label "6V_EN"
 		(at 55.88 154.94 0)
@@ -16875,6 +16905,16 @@
 		)
 		(uuid "c98de238-b30e-4a22-96ef-18c2c2dbf6b3")
 	)
+	(label "XV_SWout"
+		(at 185.42 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cae5377e-17bf-464e-ad1a-a23f0beb5f23")
+	)
 	(label "6v_fault"
 		(at 448.31 204.47 180)
 		(effects
@@ -17014,6 +17054,16 @@
 			(justify left bottom)
 		)
 		(uuid "f5e6ccbe-a846-4faa-bcdd-aac4d7a2e958")
+	)
+	(label "B1"
+		(at 58.42 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc0c8f23-f6c3-4757-8326-19e8ebfc3fac")
 	)
 	(label "LDO_5V"
 		(at 50.8 309.88 180)
@@ -17342,7 +17392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 78.74 243.84 0)
 			(effects
 				(font
@@ -27115,7 +27165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 78.74 325.12 0)
 			(effects
 				(font
@@ -29401,7 +29451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 63.5 247.65 0)
 			(effects
 				(font
@@ -30554,7 +30604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 63.5 170.18 0)
 			(effects
 				(font
@@ -31038,7 +31088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 78.74 166.37 0)
 			(effects
 				(font
@@ -31653,7 +31703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 63.5 328.93 0)
 			(effects
 				(font
