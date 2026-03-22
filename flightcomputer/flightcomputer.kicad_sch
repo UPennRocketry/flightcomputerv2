@@ -8998,6 +8998,12 @@
 		(uuid "309c7de9-ed5b-4402-8ed4-ed99b110d10c")
 	)
 	(junction
+		(at 331.47 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31db4efe-29bd-413a-828c-e830b95dd0d1")
+	)
+	(junction
 		(at 50.8 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10533,6 +10539,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 147.32) (xy 306.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7610e656-cc2b-481f-8a5f-e65a2afb24f1")
+	)
+	(wire
+		(pts
 			(xy 38.1 259.08) (xy 48.26 259.08)
 		)
 		(stroke
@@ -10823,6 +10839,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 142.24) (xy 331.47 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f5c607-fea6-45e4-8f4b-08eb5b376ebd")
+	)
+	(wire
+		(pts
 			(xy 306.07 165.1) (xy 306.07 167.64)
 		)
 		(stroke
@@ -10960,16 +10986,6 @@
 			(type default)
 		)
 		(uuid "a0347434-bc2a-4ba7-bd13-dfc3e9daa392")
-	)
-	(wire
-		(pts
-			(xy 331.47 144.78) (xy 344.17 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a03d21fc-ce5c-47f2-9f40-1986d9bc583d")
 	)
 	(wire
 		(pts
@@ -11523,6 +11539,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 142.24) (xy 335.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7849b2-1829-4b84-be8e-3f5cfbc5bcc5")
+	)
+	(wire
+		(pts
 			(xy 501.65 120.65) (xy 496.57 120.65)
 		)
 		(stroke
@@ -11773,16 +11799,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 142.24) (xy 344.17 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4d6c141-7abb-4b39-9ff9-ed5bea38692c")
-	)
-	(wire
-		(pts
 			(xy 226.06 160.02) (xy 240.03 160.02)
 		)
 		(stroke
@@ -11860,6 +11876,16 @@
 			(type default)
 		)
 		(uuid "fb4e13e1-e35c-4d74-a715-7e3879402d45")
+	)
+	(wire
+		(pts
+			(xy 300.99 144.78) (xy 306.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc39415a-b735-4e3f-afe1-aa6c4f254309")
 	)
 	(wire
 		(pts
@@ -11992,7 +12018,7 @@
 		(uuid "15dc2145-bb3b-45fc-8c88-6358d89a3709")
 	)
 	(label "x_cursns"
-		(at 344.17 142.24 180)
+		(at 300.99 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13041,6 +13067,16 @@
 		)
 		(uuid "a4c2fae6-b115-43ce-9949-a5d17ac3a58f")
 	)
+	(label "xV"
+		(at 335.28 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4c50ecd-6025-42c1-9054-be5dbf501db1")
+	)
 	(label "PYRO1"
 		(at 163.83 132.08 180)
 		(effects
@@ -13312,7 +13348,7 @@
 		(uuid "db1231d0-4ca0-4549-91db-a0b00e517f73")
 	)
 	(label "x_fault"
-		(at 344.17 144.78 180)
+		(at 300.99 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16943,7 +16979,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 99.06 256.54 0)
 			(effects
 				(font
@@ -19154,7 +19190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 265.43 247.65 0)
 			(effects
 				(font
@@ -19428,7 +19464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 265.43 262.89 0)
 			(effects
 				(font
@@ -21983,7 +22019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 95.25 270.51 0)
 			(effects
 				(font
