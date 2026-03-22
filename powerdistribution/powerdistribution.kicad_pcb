@@ -2310,7 +2310,7 @@
 		(descr "PowerPAK1212-8_2021")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q3"
-			(at 0 0 90)
+			(at 0.05 -3.1 90)
 			(layer "F.SilkS")
 			(uuid "97190fcb-04cf-422d-a61b-9588feb59aab")
 			(effects
@@ -11055,13 +11055,13 @@
 		(embedded_fonts no)
 		(model "/Users/vidhubulumulla/Downloads/XT60-M/XT60-M.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 16)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -180 90)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -23480,18 +23480,6 @@
 		)
 		(fp_text user "*"
 			(at -2.8448 -3.556 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "b0f8f4de-85c9-4232-a77c-6362ac542544")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
-			(at -2.8448 -3.556 0)
 			(layer "F.SilkS")
 			(uuid "fb4dfa1d-f4ab-4526-9179-712dfd42aff0")
 			(effects
@@ -29287,7 +29275,7 @@
 		(uuid "43793ac1-a55a-4d79-9312-9e49cd1f9cf6")
 		(at 78.945 100)
 		(property "Reference" "BT1"
-			(at -35.825 30.785 0)
+			(at -33.945 30.785 0)
 			(layer "B.SilkS")
 			(uuid "df616014-5314-4396-be3e-e82b0e97f6ed")
 			(effects

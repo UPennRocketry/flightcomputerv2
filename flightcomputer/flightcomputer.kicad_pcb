@@ -8927,7 +8927,7 @@
 		(path "/4ef628d7-ad70-4faf-929b-29f478ffc918")
 		(sheetname "/")
 		(sheetfile "flightcomputer.kicad_sch")
-		(attr smd)
+		(attr smd allow_soldermask_bridges)
 		(fp_rect
 			(start -0.515 -0.94)
 			(end 1.575 0.94)
@@ -17730,7 +17730,7 @@
 		(path "/c7479054-3670-4064-9e7d-0e5abe890b0c")
 		(sheetname "/")
 		(sheetfile "flightcomputer.kicad_sch")
-		(attr smd)
+		(attr smd allow_soldermask_bridges)
 		(fp_rect
 			(start -0.515 -0.94)
 			(end 1.575 0.94)
