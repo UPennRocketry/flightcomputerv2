@@ -8235,6 +8235,10 @@
 		(uuid "4562da1d-d96a-4113-aa50-fa1c10a7e104")
 	)
 	(no_connect
+		(at 535.94 154.94)
+		(uuid "5502da0d-070f-4f2f-ac22-6e62cb6e16b1")
+	)
+	(no_connect
 		(at 97.79 133.35)
 		(uuid "6a087c23-287c-4f8a-86b6-ca994c9e7d9f")
 	)
@@ -20941,7 +20945,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k"
+		(property "Value" "10k"
 			(at 513.08 142.2401 0)
 			(effects
 				(font
@@ -23873,7 +23877,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "19k"
+		(property "Value" "31.6k"
 			(at 513.08 149.8601 0)
 			(effects
 				(font
@@ -28948,7 +28952,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.2k"
 			(at 64.77 365.76 90)
 			(effects
 				(font
@@ -31061,7 +31065,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.2k"
 			(at 64.77 344.17 90)
 			(effects
 				(font
@@ -31097,10 +31101,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "005e81c4-65e5-4d8e-87fa-5d82979020f9")
+			(uuid "005e81c4-65e5-4d8e-87fa-5d82979020fa")
 		)
 		(pin "1"
-			(uuid "ced8b7ed-c3a4-4fc0-b104-237bc3f86945")
+			(uuid "ced8b7ed-c3a4-4fc0-b104-237bc3f86946")
 		)
 		(instances
 			(project ""
@@ -31174,10 +31178,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b66630c-6e38-4c97-b29d-5bf64269016b")
+			(uuid "6b66630c-6e38-4c97-b29d-5bf64269016c")
 		)
 		(pin "1"
-			(uuid "d98d78af-2010-4880-b72f-e02e1ee6498d")
+			(uuid "d98d78af-2010-4880-b72f-e02e1ee6498e")
 		)
 		(instances
 			(project ""
@@ -34652,10 +34656,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b66630c-6e38-4c97-b29d-5bf64269016b")
+			(uuid "6b66630c-6e38-4c97-b29d-5bf64269016d")
 		)
 		(pin "1"
-			(uuid "d98d78af-2010-4880-b72f-e02e1ee6498d")
+			(uuid "d98d78af-2010-4880-b72f-e02e1ee6498f")
 		)
 		(instances
 			(project ""
@@ -35084,7 +35088,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.2k"
 			(at 64.77 355.6 90)
 			(effects
 				(font
@@ -35120,10 +35124,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "005e81c4-65e5-4d8e-87fa-5d82979020f9")
+			(uuid "005e81c4-65e5-4d8e-87fa-5d82979020fb")
 		)
 		(pin "1"
-			(uuid "ced8b7ed-c3a4-4fc0-b104-237bc3f86945")
+			(uuid "ced8b7ed-c3a4-4fc0-b104-237bc3f86947")
 		)
 		(instances
 			(project ""
@@ -35152,7 +35156,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "65k"
+		(property "Value" "62k"
 			(at 337.82 126.9999 0)
 			(effects
 				(font

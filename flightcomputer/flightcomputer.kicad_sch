@@ -8717,6 +8717,16 @@
 		)
 		(uuid "54de46cf-c1f6-4211-8e2b-ef89d79e2a30")
 	)
+	(text "potential drop in replacement: IIS2MDCTR"
+		(exclude_from_sim no)
+		(at 305.308 29.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a7449ef-deaa-4f2e-8241-e718753d2169")
+	)
 	(text "I2C"
 		(exclude_from_sim no)
 		(at 152.908 228.6 0)
@@ -8832,6 +8842,16 @@
 		)
 		(uuid "b7bf5829-6ac8-43f0-b9a5-ad1f3c81a150")
 	)
+	(text "CST-931AP"
+		(exclude_from_sim no)
+		(at 106.426 169.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8d8a326-8d9a-483f-bd5f-aed25b432992")
+	)
 	(text "SPI"
 		(exclude_from_sim no)
 		(at 224.79 29.464 0)
@@ -8897,6 +8917,16 @@
 			)
 		)
 		(uuid "d70179f1-51ec-42ec-9fc4-9e4b5d3cd4dc")
+	)
+	(text "order shuttle board and desolder ig.. out of stock everywhere, replace next year"
+		(exclude_from_sim no)
+		(at 179.832 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d94a848d-4ef6-4d74-8a7a-37c6a8341c38")
 	)
 	(text "Utilize Teensy flash memory"
 		(exclude_from_sim no)
