@@ -5938,6 +5938,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPRsymbols:S2P-VH"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "S2P-VH"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "S2P-VH_JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "S2P-VH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "S2P-VH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "S2P-VH_JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "S2P-VH_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 33.02 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -5.08) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HPRsymbols:Teensy4.1"
 			(pin_names
 				(offset 1.016)
@@ -9016,7 +9182,7 @@
 		(uuid "282b5a53-b7b8-49fd-a0a2-439156fd8f23")
 	)
 	(junction
-		(at 328.93 228.6)
+		(at 317.5 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d5f607e-f3bd-4495-bdf7-6c18d7800dd6")
@@ -9214,7 +9380,7 @@
 		(uuid "caef5cf3-622a-4c1e-b26e-828517cfa5c0")
 	)
 	(junction
-		(at 328.93 231.14)
+		(at 317.5 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdfdacae-3bc3-4f79-bba1-f11d6ca591c0")
@@ -9899,7 +10065,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 228.6) (xy 328.93 228.6)
+			(xy 308.61 237.49) (xy 317.5 237.49)
 		)
 		(stroke
 			(width 0)
@@ -10019,7 +10185,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 228.6) (xy 330.2 228.6)
+			(xy 317.5 237.49) (xy 318.77 237.49)
 		)
 		(stroke
 			(width 0)
@@ -10499,7 +10665,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 231.14) (xy 330.2 231.14)
+			(xy 317.5 240.03) (xy 318.77 240.03)
 		)
 		(stroke
 			(width 0)
@@ -11349,7 +11515,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 226.06) (xy 330.2 226.06)
+			(xy 306.07 234.95) (xy 318.77 234.95)
 		)
 		(stroke
 			(width 0)
@@ -11399,13 +11565,23 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 231.14) (xy 328.93 231.14)
+			(xy 308.61 240.03) (xy 317.5 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5644a87-e221-41df-b8b7-8a4c7500f14a")
+	)
+	(wire
+		(pts
+			(xy 299.72 219.71) (xy 304.8 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e0c58b-c3ef-404c-b205-2ddf63a8273b")
 	)
 	(wire
 		(pts
@@ -11819,6 +11995,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 222.25) (xy 345.44 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18a1a23-95da-4211-a11d-631362b33dfd")
+	)
+	(wire
+		(pts
 			(xy 300.99 69.85) (xy 300.99 72.39)
 		)
 		(stroke
@@ -11966,6 +12152,16 @@
 			(type default)
 		)
 		(uuid "fe04175c-d372-443e-bff5-b4cdf5874489")
+	)
+	(label "5V"
+		(at 299.72 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00416ac4-66b5-4081-be5b-a2aed9e472ec")
 	)
 	(label "gps_vbckp"
 		(at 130.81 250.19 0)
@@ -13028,7 +13224,7 @@
 		(uuid "98f05949-15b4-4ebe-8916-61683518169c")
 	)
 	(label "can_rx"
-		(at 320.04 231.14 0)
+		(at 308.61 240.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13378,7 +13574,7 @@
 		(uuid "d5b58637-cd5c-4aea-bfd2-113cdad82c31")
 	)
 	(label "can_tx"
-		(at 320.04 228.6 0)
+		(at 308.61 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14927,6 +15123,72 @@
 			(project "flightcomputer"
 				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 345.44 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a770e30-b152-4934-b80a-d42962ac0947")
+		(property "Reference" "#PWR033"
+			(at 345.44 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.44 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 345.44 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c11258d-f92d-4c85-b1bb-6eb9e6fdc1ba")
+		)
+		(instances
+			(project "flightcomputer"
+				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17366,7 +17628,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 328.93 231.14 180)
+		(at 317.5 240.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17375,7 +17637,7 @@
 		(fields_autoplaced yes)
 		(uuid "594441ba-1d24-4d62-a3de-0e641d4556a9")
 		(property "Reference" "TP4"
-			(at 331.47 233.1719 0)
+			(at 320.04 242.0619 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17384,7 +17646,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 331.47 235.7119 0)
+			(at 320.04 244.6019 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17393,7 +17655,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 323.85 231.14 0)
+			(at 312.42 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17402,7 +17664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 231.14 0)
+			(at 312.42 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17411,7 +17673,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 328.93 231.14 0)
+			(at 317.5 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17426,6 +17688,76 @@
 			(project "flightcomputer"
 				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPRsymbols:S2P-VH")
+		(at 304.8 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "594c0048-23e8-421b-8564-1d7e0f99cab0")
+		(property "Reference" "U6"
+			(at 325.12 209.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "S2P-VH"
+			(at 325.12 212.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "S2P-VH_JST"
+			(at 304.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S2P-VH"
+			(at 304.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6fa75a56-c239-4fbb-ad8f-cfe9ee0c96ae")
+		)
+		(pin "1"
+			(uuid "6b90f970-1ee3-411a-af58-2c92d8e0a5c6")
+		)
+		(instances
+			(project ""
+				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -18245,7 +18577,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 328.93 228.6 0)
+		(at 317.5 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18254,7 +18586,7 @@
 		(fields_autoplaced yes)
 		(uuid "75f03762-d267-447b-b94c-1bc96ed7a089")
 		(property "Reference" "TP1"
-			(at 331.47 224.0279 0)
+			(at 320.04 232.9179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18263,7 +18595,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 331.47 226.5679 0)
+			(at 320.04 235.4579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18272,7 +18604,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 334.01 228.6 0)
+			(at 322.58 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18281,7 +18613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 334.01 228.6 0)
+			(at 322.58 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18290,7 +18622,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 328.93 228.6 0)
+			(at 317.5 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21873,7 +22205,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 317.5 226.06 0)
+		(at 306.07 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21882,7 +22214,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb63ffd7-3694-4122-a07f-4e05446f594c")
 		(property "Reference" "#PWR029"
-			(at 317.5 232.41 0)
+			(at 306.07 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21891,7 +22223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.5 231.14 0)
+			(at 306.07 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21899,7 +22231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 317.5 226.06 0)
+			(at 306.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21908,7 +22240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 226.06 0)
+			(at 306.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21917,7 +22249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 317.5 226.06 0)
+			(at 306.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22073,7 +22405,7 @@
 	)
 	(symbol
 		(lib_id "HPRlibrary:S3B-PH-K-S-GW")
-		(at 330.2 226.06 0)
+		(at 318.77 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22082,7 +22414,7 @@
 		(fields_autoplaced yes)
 		(uuid "f69393af-3a68-45c5-8a65-a0ed0c8ecbb4")
 		(property "Reference" "J14"
-			(at 346.71 227.3299 0)
+			(at 335.28 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22091,7 +22423,7 @@
 			)
 		)
 		(property "Value" "S3B-PH-K-S-GW"
-			(at 346.71 229.8699 0)
+			(at 335.28 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22100,7 +22432,7 @@
 			)
 		)
 		(property "Footprint" "HPRlibrary:S3BPHKSGW"
-			(at 346.71 320.98 0)
+			(at 335.28 329.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22110,7 +22442,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 346.71 420.98 0)
+			(at 335.28 429.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22120,7 +22452,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 3 position 0.079\" (2.00mm)"
-			(at 330.2 226.06 0)
+			(at 318.77 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22129,7 +22461,7 @@
 			)
 		)
 		(property "Height" "4.8"
-			(at 346.71 620.98 0)
+			(at 335.28 629.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22139,7 +22471,7 @@
 			)
 		)
 		(property "Mouser Part Number" "306-S3B-PH-K-S-GW"
-			(at 346.71 720.98 0)
+			(at 335.28 729.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22149,7 +22481,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S3B-PH-K-S-GW?qs=QpmGXVUTftELXF4WxsGzCQ%3D%3D"
-			(at 346.71 820.98 0)
+			(at 335.28 829.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22159,7 +22491,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 346.71 920.98 0)
+			(at 335.28 929.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22169,7 +22501,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S3B-PH-K-S-GW"
-			(at 346.71 1020.98 0)
+			(at 335.28 1029.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

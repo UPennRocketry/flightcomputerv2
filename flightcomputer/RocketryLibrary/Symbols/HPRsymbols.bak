@@ -4190,7 +4190,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ESQ-113-14-G-D:SAMTEC_ESQ-113-14-G-D"
+		(property "Footprint" "HPRlibrary:SAMTEC_ESQ-113-14-G-D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4209,7 +4209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "26 Position Elevated Socket Connector 0.100\" (2.54mm) Through Hole Gold"
 			(at 0 0 0)
 			(effects
 				(font

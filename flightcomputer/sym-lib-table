@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HPRsymbols")(type "KiCad")(uri "${KIPRJMOD}/RocketryLibrary/Symbols/HPRsymbols.kicad_sym")(options "")(descr ""))
+)
