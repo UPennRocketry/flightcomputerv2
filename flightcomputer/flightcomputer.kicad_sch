@@ -10776,6 +10776,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 208.28) (xy 213.36 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3295486a-754a-4bfb-b192-838aac02b4bd")
+	)
+	(wire
+		(pts
 			(xy 86.36 138.43) (xy 86.36 137.16)
 		)
 		(stroke
@@ -12243,6 +12253,16 @@
 			(type default)
 		)
 		(uuid "b381f434-77ba-4077-a8e1-d92f6c5969af")
+	)
+	(wire
+		(pts
+			(xy 205.74 201.93) (xy 205.74 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b430cd95-e11f-43b8-b61a-2b04b4f13ed0")
 	)
 	(wire
 		(pts
@@ -20552,6 +20572,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 208.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "917e8cff-5d61-4603-849d-f0c66f3a7f0b")
+		(property "Reference" "TP5"
+			(at 218.44 207.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 218.44 209.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 213.36 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4da2c2d-b9bd-4473-9543-dd0cee5594be")
+		)
+		(instances
+			(project ""
+				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 138.43 0)
 		(unit 1)
@@ -22823,10 +22910,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d3a4bb5-b2e9-4622-b15a-86fa2827c5b9")
+			(uuid "3d3a4bb5-b2e9-4622-b15a-86fa2827c5ba")
 		)
 		(pin "2"
-			(uuid "cc13985a-cc40-4dac-8dbe-862e50bc6df0")
+			(uuid "cc13985a-cc40-4dac-8dbe-862e50bc6df1")
 		)
 		(instances
 			(project ""
