@@ -9349,6 +9349,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 217.17) (xy 279.4 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bf30f6-5959-4d06-b7c0-ef380dbd2baf")
+	)
+	(wire
+		(pts
 			(xy 372.11 220.98) (xy 373.38 220.98)
 		)
 		(stroke
@@ -11299,6 +11309,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 214.63) (xy 279.4 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6f24fa-a4a7-488e-878e-b93d96abcfca")
+	)
+	(wire
+		(pts
 			(xy 321.31 62.23) (xy 321.31 72.39)
 		)
 		(stroke
@@ -12667,7 +12687,7 @@
 		)
 		(uuid "6999d990-34f8-4168-ab2c-757ae60b37cb")
 	)
-	(label "teensy_3.3v"
+	(label "radio_3.3v"
 		(at 233.68 233.68 0)
 		(effects
 			(font
@@ -12967,7 +12987,7 @@
 		)
 		(uuid "92a893de-10e0-4000-9ffd-cb3cf10a2c2d")
 	)
-	(label "radio_mosi"
+	(label "radio_miso"
 		(at 186.69 254 0)
 		(effects
 			(font
@@ -13437,7 +13457,7 @@
 		)
 		(uuid "e2008afb-7bab-40be-ae61-56c5bb7950ad")
 	)
-	(label "radio_miso"
+	(label "radio_mosi"
 		(at 186.69 256.54 0)
 		(effects
 			(font
@@ -13537,6 +13557,16 @@
 		)
 		(uuid "eefa46e9-0468-4be3-9e5a-be42db4385ec")
 	)
+	(label "teensy_3.3v"
+		(at 266.7 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f226c345-8059-4860-8ae5-3c4ffd0e4a6a")
+	)
 	(label "mag_cs"
 		(at 240.03 160.02 180)
 		(effects
@@ -13556,6 +13586,16 @@
 			(justify left bottom)
 		)
 		(uuid "f2ada374-0d44-4445-8530-e3507abf7cbb")
+	)
+	(label "radio_3.3v"
+		(at 266.7 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3f5cd58-720f-4f09-8bef-566accf00a17")
 	)
 	(label "imu_accel_int1"
 		(at 205.74 55.88 180)
@@ -13965,6 +14005,141 @@
 			(project ""
 				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPRlibrary:EG1218")
+		(at 284.48 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a223dd0-e24b-4472-850a-265e91fd2127")
+		(property "Reference" "S2"
+			(at 288.29 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 288.29 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HPRlibrary:SW_EG1218"
+			(at 284.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch SPDT Through Hole"
+			(at 284.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 284.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 284.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 284.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 284.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 284.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 284.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e329dc9b-2b9d-45c0-9612-c2e9040f28a4")
+		)
+		(pin "2"
+			(uuid "6769826b-6052-41c2-b316-6b4e78070c00")
+		)
+		(pin "3"
+			(uuid "d374b357-9974-4221-a8d5-07a8007a28d2")
+		)
+		(instances
+			(project "flightcomputer"
+				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
+					(reference "S2")
 					(unit 1)
 				)
 			)
