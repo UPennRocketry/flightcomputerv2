@@ -1,4 +1,4 @@
-26736260191502807
+26738037419192521
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62747,6 +62747,13 @@ MIC29302AWD-TR
 0
 6
 6
+HPRlibrary
+TSOT-23-5_2P9X1P6_ONS-L
+
+NCP718ASNADJT1G 
+0
+5
+5
 HPRlibrary
 Teensy41
 
