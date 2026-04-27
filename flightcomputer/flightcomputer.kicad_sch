@@ -9369,7 +9369,7 @@
 		(uuid 05e4843e-dc18-4ddc-a9df-3d6cf8f78618)
 	)
 	(rectangle
-		(start 294.64 205.74)
+		(start 301.625 205.74)
 		(end 405.13 248.92)
 		(stroke
 			(width 0.5)
@@ -10266,7 +10266,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 217.17) (xy 279.4 217.17)
+			(xy 276.86 217.17) (xy 288.29 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10356,6 +10356,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 220.98) (xy 267.97 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a434d0f-ba6c-44ed-84c7-4c3110e9da99")
+	)
+	(wire
+		(pts
 			(xy 157.48 139.7) (xy 170.18 139.7)
 		)
 		(stroke
@@ -10363,6 +10373,16 @@
 			(type default)
 		)
 		(uuid "0a6ca982-660f-456a-a093-e2160dc779f1")
+	)
+	(wire
+		(pts
+			(xy 264.16 217.17) (xy 264.16 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7df33a-5650-46c4-a6a0-fb9d83a1272b")
 	)
 	(wire
 		(pts
@@ -11366,6 +11386,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 208.28) (xy 267.97 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647bce05-81d4-4269-9874-3c80bf416373")
+	)
+	(wire
+		(pts
 			(xy 105.41 213.36) (xy 118.11 213.36)
 		)
 		(stroke
@@ -11623,6 +11653,16 @@
 			(type default)
 		)
 		(uuid "77108bcd-11f3-4083-bf65-fdc968b84bc3")
+	)
+	(wire
+		(pts
+			(xy 264.16 212.09) (xy 264.16 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77654ddd-c85c-42f7-9f9d-3f91f7e2d887")
 	)
 	(wire
 		(pts
@@ -12356,7 +12396,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 214.63) (xy 279.4 214.63)
+			(xy 276.86 214.63) (xy 288.29 214.63)
 		)
 		(stroke
 			(width 0)
@@ -13164,6 +13204,16 @@
 		)
 		(uuid "0ee39fe5-0741-4a67-8fff-afa5401adb94")
 	)
+	(label "teensy_3.3v"
+		(at 267.97 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "128b654d-56e3-4a99-b5a2-9a0ae720a46f")
+	)
 	(label "GPS_int"
 		(at 240.03 127 180)
 		(effects
@@ -13903,6 +13953,16 @@
 			(justify left bottom)
 		)
 		(uuid "734f203d-9306-4a07-8dfa-8ed21e83dcaa")
+	)
+	(label "radio_3.3v"
+		(at 267.97 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73a7a214-f466-4205-9b93-70eaaca0e22b")
 	)
 	(label "aux1_scl"
 		(at 231.14 139.7 0)
@@ -14725,7 +14785,7 @@
 		(uuid "eefa46e9-0468-4be3-9e5a-be42db4385ec")
 	)
 	(label "teensy_3.3v"
-		(at 266.7 214.63 0)
+		(at 276.86 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14755,7 +14815,7 @@
 		(uuid "f2ada374-0d44-4445-8530-e3507abf7cbb")
 	)
 	(label "radio_3.3v"
-		(at 266.7 217.17 0)
+		(at 276.86 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15244,7 +15304,7 @@
 	)
 	(symbol
 		(lib_id "HPRlibrary:EG1218")
-		(at 284.48 214.63 0)
+		(at 293.37 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15253,7 +15313,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a223dd0-e24b-4472-850a-265e91fd2127")
 		(property "Reference" "S2"
-			(at 288.29 213.3599 0)
+			(at 297.18 213.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15262,7 +15322,7 @@
 			)
 		)
 		(property "Value" "EG1218"
-			(at 288.29 215.8999 0)
+			(at 297.18 215.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15271,7 +15331,7 @@
 			)
 		)
 		(property "Footprint" "HPRlibrary:SW_EG1218"
-			(at 284.48 214.63 0)
+			(at 293.37 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15281,7 +15341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 214.63 0)
+			(at 293.37 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15290,7 +15350,7 @@
 			)
 		)
 		(property "Description" "Slide Switch SPDT Through Hole"
-			(at 284.48 214.63 0)
+			(at 293.37 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15300,7 +15360,7 @@
 			)
 		)
 		(property "MF" "E-Switch"
-			(at 284.48 214.63 0)
+			(at 293.37 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15310,7 +15370,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 284.48 214.63 0)
+			(at 293.37 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15320,7 +15380,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 284.48 214.63 0)
+			(at 293.37 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15330,7 +15390,7 @@
 			)
 		)
 		(property "MP" "EG1218"
-			(at 284.48 214.63 0)
+			(at 293.37 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15340,7 +15400,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 284.48 214.63 0)
+			(at 293.37 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15350,7 +15410,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
-			(at 284.48 214.63 0)
+			(at 293.37 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17369,6 +17429,76 @@
 			(project "flightcomputer"
 				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 264.16 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "36a56409-14eb-4cb8-a8a3-bfa93170f424")
+		(property "Reference" "R20"
+			(at 266.7 213.3599 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 266.7 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dde4d2fa-4e29-4b4c-9f34-87fa0c57696c")
+		)
+		(pin "2"
+			(uuid "d3eb6779-1b89-42b6-865d-6850efc677f2")
+		)
+		(instances
+			(project ""
+				(path "/7ffad011-bb39-4f19-b4f2-0143f1626449"
+					(reference "R20")
 					(unit 1)
 				)
 			)
